@@ -1,4 +1,4 @@
-package CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid;
+package ErezShamayTestAutomation.AutomationTestsForAndroid;
 
 import org.testng.annotations.*;
 

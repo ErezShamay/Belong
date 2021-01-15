@@ -1,4 +1,4 @@
-package CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid;
+package ErezShamayTestAutomation.AutomationTestsForAndroid;
 
 import java.net.MalformedURLException;
 import java.net.URL;

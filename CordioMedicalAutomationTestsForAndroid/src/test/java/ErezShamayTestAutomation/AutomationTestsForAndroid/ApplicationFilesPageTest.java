@@ -1,13 +1,13 @@
-package CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid;
+package ErezShamayTestAutomation.AutomationTestsForAndroid;
 
 import org.testng.annotations.*;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class ApplicationTreatmentPageTest {
+public class ApplicationFilesPageTest {
 	@SuppressWarnings("rawtypes")
 	AndroidDriver appiumDriver = null;
-	ApplicationTreatmentPage t = new ApplicationTreatmentPage();
+	ApplicationFilesPage f = new ApplicationFilesPage();
 
 	@BeforeClass
 	public void setUp() throws Exception {
@@ -17,9 +17,9 @@ public class ApplicationTreatmentPageTest {
 
 	@Test(priority = 1)
 	public void Test1() throws Exception {
-		t.clickOnTreatmentButton(appiumDriver);
-		assert t.treatmentPage(appiumDriver);
-		t.clickOnGoBackButton(appiumDriver);
-		t.homepage(appiumDriver);
+		f.clickOnFilesButton(appiumDriver);
+		assert f.filesPage(appiumDriver);
+		f.clickOnGoBackButton(appiumDriver);
+		f.homepage(appiumDriver);
 	}
 }
