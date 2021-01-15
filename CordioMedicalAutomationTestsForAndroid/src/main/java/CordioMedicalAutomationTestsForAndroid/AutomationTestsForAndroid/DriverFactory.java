@@ -39,12 +39,11 @@ public class DriverFactory {
 				capabilities.setCapability("platformName", "Android");
 				capabilities.setCapability("deviceName", "352355115381131"); ////// for the purpose of this excersice i use harcoded imei
 				capabilities.setCapability("platformVersion", platformVersion);
-				capabilities.setCapability("appPackage", "com.app_name");
-				capabilities.setCapability("appActivity", "com.app_main_activity");
 				//capabilities.setCapability("appWaitActivity", "if_splash_is_diffrent_from_main_activity");
 				capabilities.setCapability("browserName", "");
 				//capabilities.setCapability("networkSpeed", networkSpeed);//if we want to see how the app works with low network connection
 				capabilities.setCapability("automationName", "UiAutomator2");
+				capabilities.setCapability("app", "C:\\WIP\\Belong_base.apk");
 
 				androidDriver = new AndroidDriver(url, capabilities);
 
