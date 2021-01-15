@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest2"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest3"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest4"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest5"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest6"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest7"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest8"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest9"></class>
+	  <class name="CordioMedicalAutomationTestsForAndroid.AutomationTestsForAndroid.OverloadTest10"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
