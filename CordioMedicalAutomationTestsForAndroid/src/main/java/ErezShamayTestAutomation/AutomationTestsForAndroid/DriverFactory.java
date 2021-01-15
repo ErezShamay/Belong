@@ -30,7 +30,7 @@ public class DriverFactory {
 		if (androidDriver == null) {
 			url = new URL(URL_STRING);
 			
-			//imei = getDeviceImei(); ///// when working in parallel each calling to func will return the phone imei
+			//imei = getDeviceImei(); ///// when working with multy or parallel  each calling to func will return the phone imei
 
 			try {
 				// Set desired capabilities.
